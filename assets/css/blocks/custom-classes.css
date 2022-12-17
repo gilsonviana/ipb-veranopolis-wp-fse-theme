@@ -1,7 +1,20 @@
 .ipb-absolute-top {
-  position: absolute;
+  position: fixed;
   top: 0px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   width: 100%;
+  background: rgba(0, 92, 64, 0.6);
+  z-index: 99999;
+}
+
+.cover-zindex-top {
+  z-index: 99999;
+}
+
+.backdrop-filter-blur {
+  -webkit-backdrop-filter: saturate(180%) blur(40px);
+  backdrop-filter: saturate(180%) blur(40px);
 }
 
 .overflow-hidden {
@@ -27,4 +40,10 @@
 
 .remove-border-last-post.wp-block-post-template .wp-block-post:last-child .wp-block-group {
   border: none;
+}
+
+@media screen and (max-width: 761px) {
+  .hide-on-small {
+    display: none;
+  }
 }

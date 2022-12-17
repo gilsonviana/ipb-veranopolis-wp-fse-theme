@@ -18,6 +18,8 @@ add_action( 'wp_enqueue_scripts', function () {
   wp_enqueue_style( 'ipc-style-main', get_template_directory_uri() . '/style.css', [], wp_get_theme()->get( 'Version' ) );
   wp_enqueue_style( 'ipc-style-frontend', get_template_directory_uri() . '/assets/css/frontend.css', [], wp_get_theme()->get( 'Version' ) );
   wp_enqueue_style( 'ipc-style-blocks', get_template_directory_uri() . '/assets/css/blocks/index.css', [], wp_get_theme()->get( 'Version' ) );
+
+	wp_enqueue_script( 'ipc-style-main', get_template_directory_uri() . '/assets/js/main.js', [], wp_get_theme()->get( 'Version' ), true );
 } );
 
 // Require block styles

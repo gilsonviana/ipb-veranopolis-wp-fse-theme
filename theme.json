@@ -48,7 +48,7 @@
 				},
 				{
 					"slug": "neutral-light-light",
-          "color": "#f9f7f1",
+          "color": "#fafafa",
           "name": "Neutral Light Light"
 				},
 				{
@@ -277,10 +277,10 @@
 				},
 				{
 					"fluid": {
-						"min": "4rem",
-						"max": "10rem"
+						"min": "3rem",
+						"max": "4rem"
 					},
-					"size": "10rem",
+					"size": "4rem",
 					"slug": "xx-large"
 				}
 			]
