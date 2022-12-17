@@ -1,0 +1,12 @@
+.wp-block-post-author {
+  align-items: center;
+}
+
+.wp-block-post-author .wp-block-post-author__avatar {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.wp-block-post-author .wp-block-post-author__avatar {
+  height: 48px;
+}

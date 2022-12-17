@@ -1,0 +1,30 @@
+.ipb-absolute-top {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.hover-image-scale-up:hover img {
+  transition: all 1.5s ease;
+  transform: scale(1.06);
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.remove-border-last-post.wp-block-post-template .wp-block-post:last-child .wp-block-group {
+  border: none;
+}
